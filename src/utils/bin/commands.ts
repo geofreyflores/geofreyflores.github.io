@@ -63,18 +63,8 @@ export const linkedin = async (args: string[]): Promise<string> => {
 
 // Search
 export const google = async (args: string[]): Promise<string> => {
-  window.open(`https://google.com/search?q=${args.join(' ')}`);
-  return `Searching google for ${args.join(' ')}...`;
-};
-
-export const duckduckgo = async (args: string[]): Promise<string> => {
   window.open(`https://duckduckgo.com/?q=${args.join(' ')}`);
   return `Searching duckduckgo for ${args.join(' ')}...`;
-};
-
-export const bing = async (args: string[]): Promise<string> => {
-  window.open(`https://bing.com/search?q=${args.join(' ')}`);
-  return `Wow, really? You are using bing for ${args.join(' ')}?`;
 };
 
 export const reddit = async (args: string[]): Promise<string> => {
@@ -88,7 +78,7 @@ export const echo = async (args: string[]): Promise<string> => {
 };
 
 export const whoami = async (args: string[]): Promise<string> => {
-  return `${config.ps1_username}`;
+  return `<a href="https://en.wikipedia.org/wiki/Know_thyself" target="_blank">γνῶθι σεαυτόν</a>`;
 };
 
 export const ls = async (args: string[]): Promise<string> => {
@@ -125,8 +115,7 @@ export const emacs = async (args?: string[]): Promise<string> => {
 };
 
 export const sudo = async (args?: string[]): Promise<string> => {
-  window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ', '_blank'); // ...I'm sorry
-  return `Permission denied: with no power comes... no responsibility? `;
+  return `<p><img src="/ahahah.gif" alt="ahahah.gif"></p>`;
 };
 
 // Banner

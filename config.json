@@ -1,16 +1,18 @@
 {
-  "readmeUrl": "https://raw.githubusercontent.com/cveinnt/cveinnt/master/README.md",
-  "title": "LiveTerm",
-  "name": "John Doe",
-  "ascii": "liveterm",
+  "readmeUrl": "https://github.com/geofreyflores/geofreyflores",
+  "title": "Geofrey Flores",
+  "name": "Geofrey Flores",
+  "ascii": "cveinnt",
   "social": {
-    "github": "github",
-    "linkedin": "linkedin"
+    "github": "geofreyflores",
+    "linkedin": "geofrey-flores-083504a2",
+    "linkedinText": "geofrey-flores"
   },
-  "email": "contact@email.com",
-  "ps1_hostname": "liveterm",
-  "ps1_username": "visitor",
-  "repo": "https://github.com/Cveinnt/LiveTerm",
+  "email": "geofreyflores@gmail.com",
+  "url": "https://geofreyflores.ca",
+  "ps1_hostname": "my_website",
+  "ps1_username": "user",
+  "repo": "https://github.com/geofreyflores",
   "resume_url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Resume.pdf",
   "donate_urls": {
     "paypal": "https://paypal.me/cveinnt",
@@ -18,22 +20,24 @@
   },
   "colors": {
     "light": {
-      "background": "#FBF1C9",
-      "foreground": "#3C3836",
-      "yellow": "#D79921",
-      "green": "#98971A",
-      "gray": "#7C6F64",
-      "blue": "#458588",
-      "red": "#CA2124"
+      "background": "#011627",
+      "foreground": "#d6deeb",
+      "yellow": "#addb67",
+      "green": "#22da6e",
+      "gray": "#6C71C4",
+      "blue": "#82aaff",
+      "red": "#ef5350",
+      "cyan": "#21c7a8"
     },
     "dark": {
-      "background": "#2E3440",
-      "foreground": "#E5E9F0",
-      "yellow": "#5E81AC",
-      "green": "#A3BE8C",
-      "gray": "#88C0D0",
-      "blue": "#EBCB8B",
-      "red": "#BF616A"
+      "background": "#011627",
+      "foreground": "#d6deeb",
+      "yellow": "#addb67",
+      "green": "#22da6e",
+      "gray": "#6C71C4",
+      "blue": "#82aaff",
+      "red": "#ef5350",
+      "cyan": "#21c7a8"
     }
   }
 }

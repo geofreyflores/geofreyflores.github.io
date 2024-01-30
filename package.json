@@ -1,12 +1,19 @@
 {
-  "name": "liveterm",
+  "name": "@geofreyflores/liveterm",
   "version": "0.1.0",
   "license": "MIT",
   "author": {
-    "name": "Vincent Wu",
-    "url": "https://cveinnt.com",
-    "email": "contact@wensenwu.com"
+    "name": "Geofrey Flores",
+    "url": "https://geofreyflores.ca",
+    "email": "geofreyflores@gmail.com"
   },
+  "contributors": [
+    {
+      "name": "Vincent Wu",
+      "url": "https://cveinnt.com",
+      "email": "contact@wensenwu.com"
+    }
+  ],
   "scripts": {
     "dev": "next dev",
     "build": "next build",

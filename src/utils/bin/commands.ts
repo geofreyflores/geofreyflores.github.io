@@ -43,15 +43,6 @@ export const resume = async (args: string[]): Promise<string> => {
   return 'Opening resume...';
 };
 
-// Donate
-export const donate = async (args: string[]): Promise<string> => {
-  return `thank you for your interest. 
-here are the ways you can support my work:
-- <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.donate_urls.paypal}" target="_blank">paypal</a></u>
-- <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.donate_urls.patreon}" target="_blank">patreon</a></u>
-`;
-};
-
 // Contact
 export const email = async (args: string[]): Promise<string> => {
   window.open(`mailto:${config.email}`);
@@ -135,23 +126,33 @@ export const emacs = async (args?: string[]): Promise<string> => {
 
 export const sudo = async (args?: string[]): Promise<string> => {
   window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ', '_blank'); // ...I'm sorry
-  return `Permission denied: with little power comes... no responsibility? `;
+  return `Permission denied: with no power comes... no responsibility? `;
 };
 
 // Banner
 export const banner = (args?: string[]): string => {
   return `
-█████        ███                       ███████████                                   
-░░███        ░░░                       ░█░░░███░░░█                                   
- ░███        ████  █████ █████  ██████ ░   ░███  ░   ██████  ████████  █████████████  
- ░███       ░░███ ░░███ ░░███  ███░░███    ░███     ███░░███░░███░░███░░███░░███░░███ 
- ░███        ░███  ░███  ░███ ░███████     ░███    ░███████  ░███ ░░░  ░███ ░███ ░███ 
- ░███      █ ░███  ░░███ ███  ░███░░░      ░███    ░███░░░   ░███      ░███ ░███ ░███ 
- ███████████ █████  ░░█████   ░░██████     █████   ░░██████  █████     █████░███ █████
-░░░░░░░░░░░ ░░░░░    ░░░░░     ░░░░░░     ░░░░░     ░░░░░░  ░░░░░     ░░░░░ ░░░ ░░░░░ 
+  ________  _______   ________  ________ ________  _______       ___    ___ 
+  |\\   ____\\|\\  ___ \\ |\\   __  \\|\\  _____\\\\   __  \\|\\  ___ \\     |\\  \\  /  /|
+  \\ \\  \\___|\\ \\   __/|\\ \\  \\|\\  \\ \\  \\__/\\ \\  \\|\\  \\ \\   __/|    \\ \\  \\/  / /
+   \\ \\  \\  __\\ \\  \\_|/_\\ \\  \\\\\\  \\ \\   __\\\\ \\   _  _\\ \\  \\_|/__   \\ \\    / / 
+    \\ \\  \\|\\  \\ \\  \\_|\\ \\ \\  \\\\\\  \\ \\  \\_| \\ \\  \\\\  \\\\ \\  \\_|\\ \\   \\/  /  /  
+     \\ \\_______\\ \\_______\\ \\_______\\ \\__\\   \\ \\__\\\\ _\\\\ \\_______\\__/  / /    
+      \\|_______|\\|_______|\\|_______|\\|__|    \\|__|\\|__|\\|_______|\\___/ /     
+                                                                \\|___|/      
+                                                                             
+                                                                             
+   ________ ___       ________  ________  _______   ________                 
+  |\\  _____\\\\  \\     |\\   __  \\|\\   __  \\|\\  ___ \\ |\\   ____\\                
+  \\ \\  \\__/\\ \\  \\    \\ \\  \\|\\  \\ \\  \\|\\  \\ \\   __/|\\ \\  \\___|_               
+   \\ \\   __\\\\ \\  \\    \\ \\  \\\\\\  \\ \\   _  _\\ \\  \\_|/_\\ \\_____  \\              
+    \\ \\  \\_| \\ \\  \\____\\ \\  \\\\\\  \\ \\  \\\\  \\\\ \\  \\_|\\ \\|____|\\  \\             
+     \\ \\__\\   \\ \\_______\\ \\_______\\ \\__\\\\ _\\\\ \\_______\\____\\_\\  \\            
+      \\|__|    \\|_______|\\|_______|\\|__|\\|__|\\|_______|\\_________\\           
+                                                      \\|_________|           
 
 Type 'help' to see the list of available commands.
 Type 'sumfetch' to display summary.
-Type 'repo' or click <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.repo}" target="_blank">here</a></u> for the Github repository.
+Type 'repo' or click <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.repo}" target="_blank">here</a></u> for my Github page.
 `;
 };

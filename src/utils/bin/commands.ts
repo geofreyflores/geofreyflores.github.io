@@ -82,11 +82,13 @@ export const whoami = async (args: string[]): Promise<string> => {
 };
 
 export const ls = async (args: string[]): Promise<string> => {
-  return `a
-bunch
-of
-fake
-directories`;
+  return `
+  -rwxrwxr-x  4  user guest  4.0K Jun 15  1215 magna-carta.txt.bak
+  -rwxr-xr-x  4  jcar  root  712K Dec 01  1993 Doom.exe
+  -rwxr--r--  5   dev guest 10.3K May 05  2000 LOVE-LETTER-FOR-YOU.TXT.vbs
+  -rwxr-xr-x  2  user guest  4.0K Sep 06  2013 Guest list (copy).docx
+  -rwxr-x--- 19 admin  root  4.0K Jan 30 17:05 ..
+  `;
 };
 
 export const cd = async (args: string[]): Promise<string> => {
